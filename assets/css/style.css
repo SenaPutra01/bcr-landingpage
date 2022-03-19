@@ -248,23 +248,26 @@ body {
   BANNER SECTION
 ============================= */
 .banner {
-  height: 350px;
+  height: 100%;
 }
 .banner .container {
-  background-color: var(--primaryColor);
-  overflow-y: hidden;
+  background: var(--primaryColor);
+  padding: 50px;
 }
 .banner .container h3 {
   font-size: 24px;
   font-weight: 700;
 }
-.banner .container p {
+.banner .container .label {
   font-size: 14px;
   color: var(--secondaryColor);
 }
 .banner .btn-banner1 {
   background-color: var(--secondaryColor);
+  position: relative;
+  align-items: center;
 }
+
 /* ==========================
   FAQ SECTION
 ============================= */
@@ -406,27 +409,6 @@ body {
   .testimonial-text {
     text-align: center !important;
     padding-top: 20px;
-  }
-
-  /* ==========================
-    BANNER SECTION
-  ============================= */
-  .banner {
-    height: 500px;
-  }
-  .banner .container {
-    padding-top: 50px !important;
-  }
-  .banner .container h3 {
-    font-family: var(--headingFont);
-    font-size: 30px;
-    font-weight: 700;
-  }
-  .banner .container p {
-    width: 50%;
-    font-size: 16px;
-    font-weight: 300;
-    margin-left: 270px;
   }
 
   /* =========================
