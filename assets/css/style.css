@@ -158,13 +158,10 @@ body {
   margin-bottom: 30px;
 }
 .service-heading {
-  font-size: 24px;
-}
-.service-subheading {
   font-size: 16px;
 }
 .list-service .service-item {
-  margin-top: 10px;
+  margin-right: 10px;
 }
 .list-service .service-item img {
   margin-right: 15px;
@@ -291,6 +288,7 @@ body {
   .nav-link {
     font-size: 12px;
   }
+
   /* home */
   .container-home .row-home {
     height: 90vh;
@@ -305,6 +303,11 @@ body {
   }
   .bg-car {
     transform: translateX(75px);
+  }
+
+  /* service */
+  .card-why {
+    margin-top: 20px;
   }
 }
 
@@ -343,6 +346,18 @@ body {
     overflow-x: hidden;
   }
 
+  /* =========================
+    SERVICE SECTION
+  ============================ */
+  .img-fluid {
+    width: 60%;
+  }
+  .service-heading {
+    font-size: 20px;
+  }
+  .service-item {
+    margin-top: 10px;
+  }
   /* ==========================
     WHY US SECTION
   ============================= */
@@ -472,5 +487,25 @@ body {
   }
   .home .subheading {
     font-size: 18px;
+  }
+  /* ===============
+      SERVICE SECTION
+    ================== */
+  .service-heading {
+    font-size: 24px;
+  }
+  .service-subheading {
+    font-size: 16px;
+  }
+  .service-item {
+    margin-top: 10px;
+  }
+
+  /* ================
+    WHY US SECTION
+  =================== */
+  .card-why {
+    width: 100%;
+    height: 80%;
   }
 }
