@@ -203,14 +203,32 @@ body {
 /* =============================
   TESTIMONIAL SECTION
 ================================ */
-.testimonial {
-  overflow-x: hidden;
-}
 .testimonial-card {
-  border-radius: 8px;
   padding: 35px;
+  height: 270px;
   background: var(--primaryColor);
-  color: var(--secondaryColor);
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 50px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.testimonial-text {
+  text-align: left;
 }
 .testimonial-card img {
   width: 80px;
@@ -309,6 +327,25 @@ body {
   .card-why {
     margin-top: 20px;
   }
+
+  /* testimonial */
+  .testimonial-card {
+    padding: 0 60px;
+    width: 100%;
+    height: 40%;
+  }
+  .testimonial-text {
+    text-align: center !important;
+    padding-bottom: 50px;
+    padding-top: 10px;
+  }
+  .testimonial-text img {
+    width: 80px !important;
+    height: 16px;
+  }
+  .testimonial-container .swiper {
+    margin: 0 20px;
+  }
 }
 
 @media screen and (max-width: 991.98px) {
@@ -358,14 +395,17 @@ body {
   .service-item {
     margin-top: 10px;
   }
-  /* ==========================
-    WHY US SECTION
-  ============================= */
-  .section-padding {
-    padding: 120px 0;
+
+  /* =================
+    TESTIMONIAL SECTION
+  ==================== */
+  .testimonial-card {
+    height: 80%;
+    width: 100%;
   }
-  .why-text p {
-    font-size: 14px;
+  .testimonial-text {
+    text-align: center !important;
+    padding-top: 20px;
   }
 
   /* ==========================
@@ -507,5 +547,12 @@ body {
   .card-why {
     width: 100%;
     height: 80%;
+  }
+  /* =================
+    TESTIMONIAL SECTION
+  ==================== */
+  .testimonial-card {
+    height: 80%;
+    width: 600px !important;
   }
 }

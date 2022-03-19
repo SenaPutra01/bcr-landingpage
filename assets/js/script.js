@@ -29,14 +29,42 @@ $(document).ready(function () {
   });
 });
 
-/* SLIDER */
-var swiper = new Swiper(".mySwiperPopuler", {
-  grabCursor: true,
+// testimonial slider
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
   spaceBetween: 20,
-  centeredSlides: true,
-  slidesPerView: "auto",
+  centerSlides: true,
   autoplay: {
     delay: 5000,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 5000,
+      },
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 5000,
+      },
+    },
+    1024: {
+      slidesPerView: 3,
+      centerSlides: true,
+      loop: true,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 5000,
+      },
+    },
   },
   navigation: {
     nextEl: ".bxs-chevron-right-circle",
