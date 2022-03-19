@@ -16,6 +16,7 @@ html {
   box-sizing: border-box !important;
   text-decoration: none !important;
 }
+
 /* ========= SCROLL BAR ========== */
 *::-webkit-scrollbar {
   width: 12px;
@@ -32,6 +33,7 @@ html {
 
 body {
   font-family: var(--mainFont);
+  overflow-x: hidden;
 }
 .heading {
   font-family: var(--headingFont);
@@ -60,12 +62,18 @@ body {
 }
 .nav-link {
   font-family: var(--headingFont);
+  font-size: 16px;
 }
 .nav-link.active {
   font-weight: 700;
   color: var(--secondaryColor) !important;
 }
-
+.btn-navbar .btn-regis {
+  background-color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  color: #000;
+  font-weight: 700;
+}
 /* ===========================
   HERO SECTION
 ============================== */
@@ -230,23 +238,19 @@ body {
 /* ==========================
   RESPONSIVE DEVICE
 ============================= */
-@media screen and (min-width: 576px) {
-  .home .content-left {
-    padding: 0 12%;
+@media screen and (max-width: 767.98px) {
+  .nav-link {
+    font-size: 12px;
   }
 }
-@media screen and (min-width: 768px) {
-  .home .content-left {
-    padding: 0 12%;
-  }
-  .home {
-    overflow-x: hidden;
-  }
-}
-@media (max-width: 991.98px) {
+
+@media screen and (max-width: 991.98px) {
+  /* ===============
+    NAVBAR
+  ================== */
   .offcanvas-collapse {
     position: fixed;
-    top: 56px; /* Height of navbar */
+    top: 56px;
     bottom: 0;
     left: 100%;
     width: 50%;
@@ -261,10 +265,8 @@ body {
     visibility: visible;
     transform: translateX(-100%);
   }
-}
-@media screen and (min-width: 992px) {
-  .section-margin {
-    margin-top: 200px !important;
+  .nav-link {
+    font-size: 16px;
   }
 
   /* ===========================

@@ -1,3 +1,4 @@
+// mobile memu navbar
 (function mainScript() {
   "use strict";
 
@@ -10,6 +11,7 @@
     offcanvasCollapse.classList.toggle("open");
   });
 })();
+
 /* SCROLL NAVBAR */
 $(() => {
   $(".new-card").slice(0, 4).show();
