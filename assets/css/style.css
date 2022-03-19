@@ -271,11 +271,8 @@ body {
 /* ==========================
   FAQ SECTION
 ============================= */
-.accordion {
-  margin-top: 40px;
-}
 .accordion-item {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .accordion-button {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
@@ -294,12 +291,28 @@ body {
 =========================== */
 .footer {
   background: var(--primaryColor);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.title {
+  font-size: 16px;
+  color: var(--secondaryColor);
 }
 .menu a {
   color: #fff;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.menu span {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.menu a:hover {
+  color: var(--secondaryColor);
+}
+.icon-footer {
+  font-size: 24px;
 }
 
 /* ==========================
@@ -348,6 +361,11 @@ body {
   }
   .testimonial-container .swiper {
     margin: 0 20px;
+  }
+
+  /* faq */
+  .accordion {
+    margin-top: 40px !important;
   }
 }
 
@@ -414,7 +432,6 @@ body {
   /* =========================
     TESTIMONIAL SECTION
   ============================ */
-
   .card-product {
     padding: 20px;
     width: 619px;
