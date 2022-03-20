@@ -81,6 +81,7 @@ body {
   height: 100%;
   padding-top: 100px;
   background: var(--primaryColor);
+  overflow-y: hidden !important;
 }
 .text-hero {
   position: relative;
@@ -203,6 +204,9 @@ body {
 /* =============================
   TESTIMONIAL SECTION
 ================================ */
+#testimonial {
+  overflow-x: hidden;
+}
 .testimonial-card {
   padding: 35px;
   height: 270px;
@@ -515,7 +519,7 @@ body {
     padding: 120px 0;
   }
   .container-home .row-home {
-    height: 86.7vh;
+    height: 90vh;
     padding-top: 150px;
   }
   .home {
