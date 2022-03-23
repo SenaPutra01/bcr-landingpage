@@ -1,6 +1,6 @@
 # BINARENTAL CAR
 
-BINARENTAL CAR is a car rental platform especially in the Jakarta area
+BINARCAR RENTAL is a static website that displays a website that provides car rental services in the Jakarta area
 
 # File Structure
 
@@ -16,12 +16,6 @@ BINARENTAL CAR is a car rental platform especially in the Jakarta area
 ┃ ┃ ┃ ┣ 📜icon_mail.png
 ┃ ┃ ┃ ┣ 📜icon_twitch.png
 ┃ ┃ ┃ ┗ 📜icon_twitter.png
-┃ ┃ ┣ 📂footer-icon
-┃ ┃ ┃ ┣ 📜icon_facebook.png
-┃ ┃ ┃ ┣ 📜icon_instagram.png
-┃ ┃ ┃ ┣ 📜icon_mail.png
-┃ ┃ ┃ ┣ 📜icon_twitch.png
-┃ ┃ ┃ ┗ 📜icon_twitter.png
 ┃ ┃ ┣ 📂hero
 ┃ ┃ ┃ ┣ 📜img_car.png
 ┃ ┃ ┃ ┗ 📜Mercedes Car EQC 300kW Edition - 900x598 1.png
@@ -31,9 +25,6 @@ BINARENTAL CAR is a car rental platform especially in the Jakarta area
 ┃ ┃ ┣ 📂testimonial
 ┃ ┃ ┃ ┣ 📜img_photo.png
 ┃ ┃ ┃ ┗ 📜Rate.png
-┃ ┃ ┣ 📂testimonial-img
-┃ ┃ ┃ ┣ 📜img_photo-1.png
-┃ ┃ ┃ ┗ 📜img_photo.png
 ┃ ┃ ┗ 📂why
 ┃ ┃ ┃ ┣ 📜icon_24hrs.png
 ┃ ┃ ┃ ┣ 📜icon_complete.png
